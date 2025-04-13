@@ -19,3 +19,16 @@ for i in range(len(data[0])):
 
 # 리스트를 문자열로 변환 후 출력
 print(''.join(result))
+    
+# 정해진 개수 정수를 한줄에 입력
+#a, b, c = map(int, sys.stdin.readLine().split())
+
+# 임의의 개수 정수를 한줄 입력받아 리스트에 저장
+# data = list.(map(int, sys.stdin.readLine().split())
+
+# 임의의 개수 정수를 N줄 입력받아 2차원 리스트에 저장
+# N = int(sys.stdin.readLine())
+# data = []
+# for i in range(N):
+#     data.append(list(map(int, sys.stdin.readLine().split())))
+
