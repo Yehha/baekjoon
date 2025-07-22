@@ -10,16 +10,15 @@ while True :
     #2 변수 생성
     small, capital, num, space = 0,0,0,0
 
-    #3 문자열 검사
+    #3 문자열검사하기
     for char in data:
-        if char.islower():    #소문자
+        if char.islower():
             small +=1
-        elif char.isupper():  #대문자
+        elif char.isupper():
             capital +=1
-        elif char.isdigit():  #숫자
+        elif char.isdigit():
             num +=1
-        else:                 #공백
+        else:
             space +=1
 
-    #4 결과 출력
     print(small, capital, num, space)
